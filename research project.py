@@ -10,6 +10,7 @@ df000.columns=colname
 root_dir = r"/Users/zhilinyang/Desktop/data_Q1_2017"
 combST = pd.DataFrame()
 combHi = pd.DataFrame()
+
 for file in os.listdir(root_dir):
         file_name = root_dir +'/'+ file
         df0=pd.read_csv(file_name,header=None)
@@ -39,6 +40,7 @@ for file in os.listdir(root_dir):
             'smart_196_normalized', 'smart_196_raw',
             'smart_197_normalized', 'smart_197_raw'
             ]
+        
         #change point detection
         dfSTcpd=pd.concat([ dfST['date'],dfST['serial_number'],dfST[featuresST] ],axis=1)
         dfHicpd=pd.concat([ dfHi['date'],dfHi['serial_number'],dfHi[featuresST] ],axis=1)
