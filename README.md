@@ -8,6 +8,27 @@ This is the summer research I did in the summer holiday of 2018. In this researc
 2.Hard Drive Failure Prediction Using Classification and Regression Trees (DSN14)
 
 3.Improving Service Availability of Cloud Systems by Prediction Disk Error (ATC18)
+
 The source paper can be found in each folder respectively.
 
-## Prerequisites & Installing
+## Requirements:
+Python 3.6
+
+pandas
+
+numpy
+
+matplotlib
+
+sklearn
+
+rgf-python (This can be downloaded https://github.com/RGF-team/rgf/tree/master/python-package)
+
+## Dataset:
+The dataset for KDD16 and ATC18 is downloaded from Blackblaze database: 
+https://www.backblaze.com/b2/hard-drive-test-data.html
+For KDD16, I used the data in the whole year of 2015.
+For ATC18, I used the data in the 4th quarter of 2017.
+
+The dataset for DSN14 is downloaded from Baidu database:
+https://pan.baidu.com/share/link?shareid=189977&uk=4278294944
