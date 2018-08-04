@@ -32,3 +32,11 @@ For ATC18, I used the data in the 4th quarter of 2017.
 
 The dataset for DSN14 is downloaded from Baidu database:
 https://pan.baidu.com/share/link?shareid=189977&uk=4278294944
+
+## Acknowledgments:
+
+* Find CPT
+
+  https://medium.com/bigdatarepublic/contextual-changepoint-detection-with-python-and-r-using-rpy2-fa7d86259ba9
+
+* Thanks for the help of my instructive Professor Patrick P. C. Lee and his PhD student Shujie Han.
