@@ -2,7 +2,7 @@
 
 Machine Learning for Storage System Reliability Prediction
 
-This is the summer research I did in the summer holiday of 2018. In this research project, I have mainly tried to reproduced 3 papers:
+This is the summer research I did in the summer holiday of 2018. In this research project, I have mainly tried to reproduced the results in 3 papers:
 
 1.Prediction Disk Replacement towards Reliable Data Centers (KDD16)
 
@@ -29,10 +29,13 @@ rgf-python (This can be downloaded https://github.com/RGF-team/rgf/tree/master/p
 The dataset for KDD16 and ATC18 is downloaded from Blackblaze database: 
 https://www.backblaze.com/b2/hard-drive-test-data.html
 For KDD16, I used the data in the whole year of 2015.
-For ATC18, I used the data in the 4th quarter of 2017.
+For ATC18, I used the data in the 4th quarter of 2017. This is not the original dataset used in the paper, since the paper didn't present their data source. 
 
-The dataset for DSN14 is downloaded from Baidu database:
+The dataset for DSN14 is downloaded from Baidu database: 
 https://pan.baidu.com/share/link?shareid=189977&uk=4278294944
+This is not the original dataset used in the paper, since the paper didn't present their data source.
+
+Since the datasets I used are different from the original ones, there are discrepancy between the experiment results I got and those in papers.
 
 ## Acknowledgments:
 
